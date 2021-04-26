@@ -327,38 +327,32 @@ If want each problem to be it's own page, you can use relative path links at the
 </script>
 
 ### input & print
-<div id="hello_world-sortableTrash" class="sortable-code"></div> 
-<div id="hello_world-sortable" class="sortable-code"></div> 
+<div id="input_print-sortableTrash" class="sortable-code"></div> 
+<div id="input_print-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="hello_world-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="hello_world-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="input_print-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="input_print-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "name = input(&#039;Please enter your name: &#039;)\n" +
-    "print(f&#039;Hello {name}! It&#039;s nice to meet you!&#039;)\n" +
-    "name = print(&#039;Please enter your name: &#039;) #distractor\n" +
-    "name = print(input(&#039;Please enter your name: &#039;)) #distractor\n" +
-    "print(&#039;Hello {name}! It&#039;s nice to meet you!&#039;) #distractor\n" +
-    "print(f&#039;Hello&#039; + name + &#039;! It&#039;s nice to meet you!&#039;) #distractor";
+  var initial = "";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "hello_world-sortable",
+    "sortableId": "input_print-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
-    "can_indent": false,
+    "can_indent": true,
     "x_indent": 50,
-    "lang": "en",
-    "trashId": "hello_world-sortableTrash"
+    "lang": "en"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#hello_world-newInstanceLink").click(function(event){ 
+  $("#input_print-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#hello_world-feedbackLink").click(function(event){ 
+  $("#input_print-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
