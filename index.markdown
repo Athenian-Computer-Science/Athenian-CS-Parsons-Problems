@@ -347,7 +347,7 @@ If want each problem to be it's own page, you can use relative path links at the
     "sortableId": "input_print-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
-    "exec_limit": 4000,
+    "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
