@@ -287,7 +287,7 @@ If want each problem to be it's own page, you can use relative path links at the
 })(); 
 </script>
 
-### 1.1 printing
+### 1.2 printing
 <div id="hello_world-sortableTrash" class="sortable-code"></div> 
 <div id="hello_world-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -326,7 +326,7 @@ If want each problem to be it's own page, you can use relative path links at the
 })(); 
 </script>
 
-### input & print
+### 1.3 input & print
 <div id="input_print-sortableTrash" class="sortable-code"></div> 
 <div id="input_print-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -336,7 +336,13 @@ If want each problem to be it's own page, you can use relative path links at the
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "";
+  var initial = "name = input(&#039;Please enter your name: &#039;)\n" +
+    "print(f&quot;It&#039;s nice to meet you, {name}!&quot;)\n" +
+    "name = print(&#039;Please enter your name: &#039;) #distractor\n" +
+    "name = print(input(&#039;Please enter your name: &#039;)) #distractor\n" +
+    "print(f&#039;It&#039;s nice to meet you, {name}!&#039;) #distractor\n" +
+    "print(&quot;It&#039;s nice to meet you, {name}!&quot;) #distractor\n" +
+    "print(f&quot;It&#039;s nice to meet you, name!&quot;) #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "input_print-sortable",
     "max_wrong_lines": 10,
@@ -344,7 +350,8 @@ If want each problem to be it's own page, you can use relative path links at the
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
-    "lang": "en"
+    "lang": "en",
+    "trashId": "input_print-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
