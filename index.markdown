@@ -380,7 +380,6 @@ If want each problem to be it's own page, you can use relative path links at the
     "temp = badger\n" +
     "badger = parrot\n" +
     "parrot = temp\n" +
-    "temp = parrot #distractor\n" +
     "parrot = badger #distractor\n" +
     "badger = temp #distractor";
   var parsonsPuzzle = new ParsonsWidget({
