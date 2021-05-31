@@ -376,11 +376,10 @@ If want each problem to be it's own page, you can use relative path links at the
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "parrot = 8    # this block first
-     badger = 5    # this block second\n" +
+  var initial = "parrot\nbadger\n" +
     "temp = badger\n" +
     "badger = parrot\n" +
-    "parrot = temp\n" +
+    "parrot = temp\ncow\n" +
     "temp = parrot #distractor\n" +
     "parrot = badger #distractor\n" +
     "badger = temp #distractor";
