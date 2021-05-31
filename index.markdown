@@ -416,7 +416,7 @@ If want each problem to be it's own page, you can use relative path links at the
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "parrot = 6\nbadger = 2\n" +
+  var initial = "parrot = 6\nbadger = 2a\n" +
     "temp = badger\n" +
     "badger = parrot\n" +
     "parrot = temp\n" +
