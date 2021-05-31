@@ -406,13 +406,13 @@ If want each problem to be it's own page, you can use relative path links at the
 })(); 
 </script>
 
-2.1a readd 2.1
-<div id="reassign-sortableTrash" class="sortable-code"></div> 
-<div id="reassign-sortable" class="sortable-code"></div> 
+### 2.1a readd 2.1
+<div id="reassign2-sortableTrash" class="sortable-code"></div> 
+<div id="reassign2-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="reassign-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="reassign-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="reassign2-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="reassign2-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -424,26 +424,24 @@ If want each problem to be it's own page, you can use relative path links at the
     "parrot = badger #distractor\n" +
     "badger = temp #distractor";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "reassign-sortable",
+    "sortableId": "reassign2-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
     "can_indent": false,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "reassign-sortableTrash"
+    "trashId": "reassign2-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#reassign-newInstanceLink").click(function(event){ 
+  $("#reassign2-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#reassign-feedbackLink").click(function(event){ 
+  $("#reassign2-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
 })(); 
 </script>
-
-
