@@ -1,4 +1,5 @@
-### 2.1 variable reassignment
+### 2.1 Variable reassignment
+Arrange the blocks to switch the values of `parrot` and `badger`. 
 <div id="reassign-sortableTrash" class="sortable-code"></div> 
 <div id="reassign-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
