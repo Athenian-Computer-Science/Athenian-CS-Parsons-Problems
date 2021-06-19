@@ -14,13 +14,14 @@ Arrange the appropriate blocks to construct a program that prompts the user for 
     "print(f&quot;Welcome to CS, {name}!&quot;)\n" +
     "print(f&quot;Welcome to CS, name!&quot;) #distractor\n" +
     "print(&quot;Welcome to CS, {name}!&quot;) #distractor\n" +
-    "name = print(input(&quot;What is your name? &quot;)) #distractor";
+    "name = print(input(&quot;What is your name? &quot;)) #distractor\n" +
+    "name = print(&quot;What is your name? &quot;) #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
-    "can_indent": true,
+    "can_indent": false,
     "x_indent": 50,
     "lang": "en",
     "trashId": "sortableTrash"
