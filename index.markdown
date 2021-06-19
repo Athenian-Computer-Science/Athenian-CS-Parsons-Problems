@@ -337,8 +337,8 @@ If want each problem to be it's own page, you can use relative path links at the
 <script type="text/javascript"> 
 (function(){
   var initial = "name = input(&#039;Please enter your name: &#039;)\n" +
-    "print(f&quot;It&#039;s nice to meet you, {name}!&quot;)\n" +
-    "name = print(&#039;Please enter your name: &#039;) #distractor\n" +
+    "print(f&quot;Welcome, {name}!&quot;)\n" +
+    "name = print(&#039;Please enter your name:                 &#039;) #distractor\n" +
     "name = print(input(&#039;Please enter your name: &#039;)) #distractor\n" +
     "print(f&#039;It&#039;s nice to meet you, {name}!&#039;) #distractor\n" +
     "print(&quot;It&#039;s nice to meet you, {name}!&quot;) #distractor\n" +
