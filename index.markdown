@@ -405,4 +405,6 @@ If want each problem to be it's own page, you can use relative path links at the
 })(); 
 </script>
       
-      
+CS Parsons problems:
+* input & print
+* [variable reassignment](parsons/variable-reassignment.md)
