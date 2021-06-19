@@ -10,7 +10,7 @@ Arrange the appropriate blocks to construct a program that prompts the user for 
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "name = input(&quot;What is your name? &quot;)\n" +
+  var initial = "name = input(&quot;What is your name                     ? &quot;)\n" +
     "print(f&quot;Welcome to CS, {name}!&quot;)\n" +
     "print(f&quot;Welcome to CS, name!&quot;) #distractor\n" +
     "print(&quot;Welcome to CS, {name}!&quot;) #distractor\n" +
