@@ -411,3 +411,4 @@ CS Parsons problems:
 * print (parsons/print.md)
 * [input & print](parsons/input-print.md)
 * [variable reassignment](parsons/variable-reassignment.md)
+* [test](parsons/test.md)
