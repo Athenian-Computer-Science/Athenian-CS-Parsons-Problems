@@ -1,1 +1,0 @@
-<iframe width="1100" height="1200" src="https://www.readingbat.com/content/python" style="-webkit-transform:scale(0.6);-moz-transform-scale(0.6);-moz-transform-origin: top left; -webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;"></iframe>
