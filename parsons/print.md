@@ -1,4 +1,4 @@
-### 1.2 printing
+### printing
 <div id="hello_world-sortableTrash" class="sortable-code"></div> 
 <div id="hello_world-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
