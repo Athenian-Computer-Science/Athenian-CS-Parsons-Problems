@@ -9,11 +9,11 @@
 <script type="text/javascript"> 
 (function(){
   var initial = "course = &#039;Chemistry&#039;\n" +
-    "print(f&quot;What class comes after {course}?&quot;)\n" +
+    "print(f&quot;What is after {course}?&quot;)\n" +
     "course = Chemistry #distractor\n" +
     "&#039;Chemistry&#039; = course #distractor\n" +
-    "print(&quot;What class comes after {course}?&quot;) #distractor\n" +
-    "print f&#039;What class comes after {course}?&#039; #distractor";
+    "print(&quot;What is after {course}?&quot;) #distractor\n" +
+    "print f&#039;What is after {course}?&#039; #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "hello_world-sortable",
     "max_wrong_lines": 10,
