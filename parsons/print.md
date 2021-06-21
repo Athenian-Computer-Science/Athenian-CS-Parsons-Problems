@@ -1,5 +1,5 @@
 ### printing
-Arrange blocks to assign the string "Chemistry" to the variable `course` and then ask what class comes next.
+Arrange blocks to assign the string `Chemistry` to the variable `course` and then ask what class comes next.
 
 <div id="hello_world-sortableTrash" class="sortable-code"></div> 
 <div id="hello_world-sortable" class="sortable-code"></div> 
