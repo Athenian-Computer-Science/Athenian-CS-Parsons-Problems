@@ -1,4 +1,4 @@
-### 1.3 input and print
+### Parsons Problem: input and print
 Arrange the appropriate blocks to construct a program that prompts the user for their name and prints a greeting in response. Check your answer when you think you are done.
 <div id="input-print-sortableTrash" class="sortable-code"></div> 
 <div id="input-print-sortable" class="sortable-code"></div> 
