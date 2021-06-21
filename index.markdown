@@ -408,6 +408,6 @@ If want each problem to be it's own page, you can use relative path links at the
 
       
 CS Parsons problems:
-* [print] (parsons/print.md)
+* [print](parsons/print.md)
 * [input & print](parsons/input-print.md)
 * [variable reassignment](parsons/variable-reassignment.md)
