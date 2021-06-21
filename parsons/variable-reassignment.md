@@ -1,4 +1,4 @@
-### 2.1 Variable reassignment
+### Variable reassignment
 The goal of this exercise is to switch the values of two variables: `parrot` and `badger`. Start by assigning `8` to `parrot` and `5` to `badger`. Then arrange the other blocks to switch the values of the variables. 
 
 <div id="reassign-sortableTrash" class="sortable-code"></div> 
