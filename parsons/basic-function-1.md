@@ -1,3 +1,5 @@
+# Rearrange the blocks to create and run a function that returns "Hello World!" Pay attention to indentation and be aware of distractor blocks.
+
 <div id="basic_function_1-sortableTrash" class="sortable-code"></div> 
 <div id="basic_function_1-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
