@@ -1,3 +1,6 @@
+### Basic Functions 21
+Rearrange the blocks to create and run a function that accepts and adds two numbers. Pay attention to indentation and be aware of distractor blocks.
+
 <div id="basic_function_2-sortableTrash" class="sortable-code"></div> 
 <div id="basic_function_2-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -13,7 +16,9 @@
     "user1 = int(input(&quot;First number: &quot;))\n" +
     "user2 = int(input(&quot;Second number: &quot;))\n" +
     "answer = (add_it(user1, user2))\n" +
-    "print(f&quot;{user1} + {user2} = {answer}&quot;)";
+    "print(f&quot;{user1} + {user2} = {answer}&quot;)\n" +
+    "def add_it(user1, user2): #distractor\n" +
+    "user1 = input(&quot;First number: &quot;) #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "basic_function_2-sortable",
     "max_wrong_lines": 10,
