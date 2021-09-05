@@ -1,4 +1,4 @@
-### Basic Functions 21
+### Basic Functions 2
 Rearrange the blocks to create and run a function that accepts and adds two numbers. Pay attention to indentation and be aware of distractor blocks.
 
 <div id="basic_function_2-sortableTrash" class="sortable-code"></div> 
