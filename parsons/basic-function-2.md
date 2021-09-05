@@ -13,8 +13,7 @@ Rearrange the blocks to create and run a function that accepts and adds two numb
   var initial = "def add_it(num1, num2):\n" +
     "	result = num1 + num2\n" +
     "	return result\n" +
-    "user1 = int(input(&quot;First number: &quot;))\n" +
-    "user2 = int(input(&quot;Second number: &quot;))\n" +
+    "user1 = int(input(&quot;First number: &quot;))<br\>user2 = int(input(&quot;Second number: &quot;))\n" +
     "answer = (add_it(user1, user2))\n" +
     "print(f&quot;{user1} + {user2} = {answer}&quot;)\n" +
     "def add_it(user1, user2): #distractor\n" +
