@@ -15,7 +15,7 @@ Arrange the blocks to calculate the two values, return them both from the functi
     "    pow2 = y ** x\n" +
     "    return pow1, pow2\n" +
     "ans1, ans2 = powers(4, 3)\n" +
-    "print(f&quot;x^y is {ans1}&quot;)print(f&quot;y^x is {ans2}&quot;)\n" +
+    "print(f&quot;x^y is {ans1}&quot;)\n"<br\>print(f&quot;y^x is {ans2}&quot;)\n" +
     "return pow1 #distractor\n" +
     "return pow2 #distractor";
   var parsonsPuzzle = new ParsonsWidget({
