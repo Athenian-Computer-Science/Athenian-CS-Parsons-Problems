@@ -11,8 +11,7 @@ Arrange the blocks to calculate the two values, return them both from the functi
 <script type="text/javascript"> 
 (function(){
   var initial = "def powers(x, y):\n" +
-    "    pow1 = x ** y\n" +
-    "    pow2 = y ** x\n" +
+    "    pow1 = x ** y<br\>pow2 = y ** x\n" +
     "    return pow1, pow2\n" +
     "ans1, ans2 = powers(4, 3)\n" +
     "print(f&quot;x^y is {ans1}&quot;)<br\>print(f&quot;y^x is {ans2}&quot;)\n" +
