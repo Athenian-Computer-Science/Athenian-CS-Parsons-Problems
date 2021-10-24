@@ -1,5 +1,6 @@
 ## Lists 1
 Define a list and print selected elements.
+* Be sure to define `third_animal` before `last_animal` (becuase the checker expects it, not because it matters otherwise!)
 
 <div id="lists1-sortableTrash" class="sortable-code"></div> 
 <div id="lists1-sortable" class="sortable-code"></div> 
