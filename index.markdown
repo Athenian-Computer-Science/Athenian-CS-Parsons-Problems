@@ -416,5 +416,6 @@ CS Parsons problems:
 * [functions - return multiple values](parsons/return-multiple-values.md)
 * [If Statements](parsons/if-elif-else.md)
 * [For Loops 1](parsons/for_loops_1.md)
+* [Lists 1](parsons/lists1.md)
 
       
