@@ -417,5 +417,4 @@ CS Parsons problems:
 * [If Statements](parsons/if-elif-else.md)
 * [For Loops 1](parsons/for_loops_1.md)
 * [Lists 1](parsons/lists1.md)
-
-      
+* [List slicing](parsons/list_slicing.md)    
