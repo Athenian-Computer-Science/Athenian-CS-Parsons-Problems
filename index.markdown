@@ -420,4 +420,10 @@ CS Parsons problems:
 * [List slicing](parsons/list_slicing.md)
 * [Lists - check contents](parsons/lists-check-contents.md)
 
- 
+Embed Repl:
+embed = true
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@MeganLeich/testrepl#src/main.py?embed=true"></iframe>
+
+embed - lite
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@MeganLeich/testrepl#src/main.py?lite=true"></iframe>
+
