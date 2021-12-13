@@ -422,8 +422,11 @@ CS Parsons problems:
 
 Embed Repl:
 embed = true
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@MeganLeich/testrepl#src/main.py?embed=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@MeganLeich/testrepl?embed=true"></iframe>
 
 embed - lite
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@MeganLeich/testrepl#src/main.py?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@MeganLeich/testrepl?lite=true"></iframe>
+
+embed different repl
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@MeganLeich/testembed?embed=true"></iframe>
 
